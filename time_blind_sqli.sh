@@ -110,7 +110,7 @@ do
 
 			# Convert decimal to ASCII
 			str=$(printf \\$(printf '%03o' $c))
-			echo -n $str
+			echo -n "$str"
 			break
 					
 		fi
