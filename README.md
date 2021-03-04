@@ -2,7 +2,7 @@
 
 Bash script for automating time-based blind SQL injections.
 
-## About
+## Description
 
 This script was written while pursuing the OSCP. It can be used to exploit vulnerable string parameters in GET or POST requests. While the script is based on MySQL, it can be adapted to work against other DBMSs by modifying the `$payload` value.
 
@@ -45,3 +45,7 @@ Retrieving query results one character at a time...
 nowasp
 Finished!
 ```
+
+## Links
+
+Automating Time-based Blind SQL Injection using Bash: https://oncybersec.com/automating-time-based-blind-sql-injection-using-bash/
